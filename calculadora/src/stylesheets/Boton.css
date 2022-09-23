@@ -1,0 +1,28 @@
+.btn-contenedor {
+  height: 83px;
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s all;
+}
+
+.operador {
+  background-color: green;
+}
+
+.btn-contenedor:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+.operador:hover {
+  background-color: rgb(18, 77, 18);
+}

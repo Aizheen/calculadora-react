@@ -1,0 +1,53 @@
+.App {
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.react{
+    color: #008cff;
+    position: relative;
+    top: 4px;
+    
+  }
+.freecodecamp-logo {
+  height: 40px;
+}
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #232322;
+  border-radius: 20px;
+  border: 5px solid rgb(83, 82, 82);
+ 
+}
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
